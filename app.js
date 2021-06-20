@@ -69,4 +69,4 @@ app.patch('/updateInterview', (request, response) => {
     .catch(err => console.log(err));
 });
 
-app.listen(5000, () => console.log('app is running'));
+app.listen(procces.env.port||5000, () => console.log('app is running'));
