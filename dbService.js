@@ -15,7 +15,7 @@ connection.connect((err) => {
     if (err) {
         console.log('err'+err.message);
     }
-    console.log('db ' );
+    console.log('db ' + connection.state);
 });
 
 convertDateTime = (datetime) => {
