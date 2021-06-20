@@ -9,7 +9,7 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended : false }));
 app.get("/interviews",(request,response)=>{
-    response.json("Hello JSON")
+    response.json("Hello JSON");
 })
 
 // To get all users data 
