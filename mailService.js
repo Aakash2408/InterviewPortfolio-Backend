@@ -41,7 +41,7 @@ class MailService {
         interviewee = this.getData(interviewee);
         const mailOptions = {
             from: USER,
-            to: interviewer.email ,
+            to: interviewer.email + ',' + interviewee.email,
             subject: 'New Interview',
             text: `You have new interview scheduled.
                    Details:

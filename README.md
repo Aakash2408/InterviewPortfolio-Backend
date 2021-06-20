@@ -59,3 +59,6 @@ Then open go to client and open index.html.
 
 <!-- Here is the screenshot of the working system / frontend. -->
 
+![Screenshot (150)](https://user-images.githubusercontent.com/47134609/122673661-13dec200-d204-11eb-8f61-d63dcfae68c0.png)
+
+![Screenshot (151)](https://user-images.githubusercontent.com/47134609/122673666-1a6d3980-d204-11eb-9838-b2a6e484d129.png)
