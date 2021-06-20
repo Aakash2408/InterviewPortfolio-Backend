@@ -49,7 +49,7 @@ app.delete('/deleteInterview/:id', (request, response) => {
 
 // Insert new interview in table 
 app.post('/insertInterview', (request, response) => {
-    console.log("testoing");
+    console.log("testing");
     const { email1, email2, endTime, startTime } = request.body;
     const db = dbService.getDbServiceInstance();
     
